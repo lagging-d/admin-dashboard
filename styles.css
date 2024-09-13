@@ -20,6 +20,8 @@
     display: flex;
 }
 
+/* Lower header area */
+
 .lower-header {
     display: flex;
     justify-content: space-between;
@@ -31,6 +33,23 @@
     margin: 10px;
     gap: 10px;
 }
+
+button {
+    display: block;
+
+    width: 100px;
+    height: 50px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin: 10px;
+    gap: 20px;
+}
+/* Lower header area END */
 
 .main-panel {
     display: grid;
