@@ -11,3 +11,15 @@
     grid-template-columns: 1fr 2fr;
 }
 
+.header {
+    display: grid;
+    grid-template-rows: 100px 100px;
+}
+
+.upper-header {
+    display: flex;
+}
+
+.lower-header {
+    display: flex;
+}
