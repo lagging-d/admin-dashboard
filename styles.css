@@ -16,9 +16,34 @@
     grid-template-rows: 100px 100px;
 }
 
+/* Upper Header */
+
 .upper-header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+input {
+    width: 400px;
+}
+
+.right-upper-header {
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+}
+
+.btn-profile {
+    display: flex;
+    align-items: center;
+
+    margin: 10px;
+    gap: 15px;
+}
+
+/* Upper Header END */
 
 /* Lower header area */
 
@@ -49,6 +74,7 @@ button {
     margin: 10px;
     gap: 20px;
 }
+
 /* Lower header area END */
 
 .main-panel {
