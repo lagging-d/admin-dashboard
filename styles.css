@@ -2,9 +2,12 @@
 ::before,
 ::after {
     box-sizing: border-box;
+
+    border: 1px solid red;
 }
 
 .main-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
+
