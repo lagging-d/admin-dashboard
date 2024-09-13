@@ -22,6 +22,14 @@
 
 .lower-header {
     display: flex;
+    justify-content: space-between;
+}
+
+.profile-welcome {
+    display: flex;
+    
+    margin: 10px;
+    gap: 10px;
 }
 
 .main-panel {
@@ -75,3 +83,4 @@ ul {
 
     gap: 20px;
 }
+
