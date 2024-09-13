@@ -23,3 +23,24 @@
 .lower-header {
     display: flex;
 }
+
+.main-panel {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.cards-container {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+}
+
+.ann-container {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.trending-container {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
