@@ -3,11 +3,17 @@
 ::after {
     box-sizing: border-box;
 
-    border: 1px solid red;
+   /* border: 1px solid red; */
 }
 
 :root {
     --main-color: #d418e1;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
 }
 
 .main-container {
@@ -162,4 +168,9 @@ ul {
 
 li > img {
     filter: invert(100%);
+    border: none;
+}
+
+li {
+    color: white;
 }
