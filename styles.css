@@ -44,3 +44,23 @@
     grid-column: 3 / 4;
     grid-row: 3 / 4;
 }
+
+.logo-name {
+    display: flex;
+
+    gap: 10px;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    gap: 50px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
