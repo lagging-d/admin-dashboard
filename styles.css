@@ -305,3 +305,11 @@ p {
 .trending-container > h2 {
     margin-top: 0;
 }
+
+.cards > div > * { 
+    margin-left: 20px;
+}
+
+.cards > div > img {
+    width: 30px;
+}
