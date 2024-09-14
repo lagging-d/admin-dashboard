@@ -21,8 +21,6 @@
 ::after {
     box-sizing: border-box;
     font-family: "ubunturegular";
-
-   /* border: 1px solid red; */
 }
 
 :root {
@@ -44,7 +42,6 @@ body {
     display: grid;
     grid-template-rows: 100px 100px;
 
-    box-shadow: ;
 }
 
 /* Upper Header */
@@ -90,6 +87,8 @@ input {
 .lower-header {
     display: flex;
     justify-content: space-between;
+
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
 }
 
 .profile-welcome {
@@ -171,6 +170,7 @@ button:hover {
 
     border: none;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
     display: grid;
     grid-template-columns: 10px 1fr 1fr;
@@ -207,6 +207,8 @@ button:hover {
     padding: 10px;
     background-color: white;
     border-radius: 10px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .trending-container {
@@ -393,7 +395,7 @@ h3 {
 
 .card-line {
     width: 10px;
-    background-color: #d418e1;
+    background-color: #6b3394;
     height: 100%;
     margin: 0;
 
