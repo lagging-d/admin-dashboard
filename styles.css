@@ -140,6 +140,8 @@ button:hover {
     grid-template-rows: 1fr;
 
     background-color: #d6cde8;
+
+    justify-items: center;
 }
 
 .cards-container {
@@ -150,9 +152,7 @@ button:hover {
 
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
 
-    justify-self: center;
 }
 
 .cards {
@@ -166,15 +166,16 @@ button:hover {
 
 .cards > div {
     width: 500px;
-    height: 200px;
+    height: 250px;
 
     border: none;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
 
     display: grid;
     grid-template-columns: 10px 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr;
 
     column-gap: 30px;
 }
@@ -185,6 +186,8 @@ button:hover {
 
     justify-self: end;
     align-self: end;
+
+    padding: 10px;
 }
 
 .cards > div > p {
@@ -196,7 +199,6 @@ button:hover {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
 
-    margin: auto;
     padding: 10px;
 }
 
@@ -204,7 +206,7 @@ button:hover {
 .trending {
     width: 400px;
 
-    padding: 10px;
+    padding: 0 50px 10px 50px;
     background-color: white;
     border-radius: 10px;
 
@@ -215,21 +217,19 @@ button:hover {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 
-    margin: auto;
     padding: 10px;
 }
 
 .trending {
-    height: 300px;
+    height: 380px;
     width: 400px;
     background-color: white;
 
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.cards > div,
 .announcements > div,
 .trending > div {
     background-color: white;
@@ -401,4 +401,11 @@ h3 {
 
     grid-column: 1;
     grid-row: 1 / 4;
+
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.announcements > div:nth-child(-n+2) {
+    border-bottom: 1px solid rgb(145, 145, 145, 0.3);
 }
