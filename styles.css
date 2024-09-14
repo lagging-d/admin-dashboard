@@ -164,6 +164,23 @@ button {
 
     border: none;
     border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.icons-card {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+
+    justify-self: end;
+    align-self: end;
+}
+
+.cards > div > p {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
 }
 
 .ann-container {
@@ -310,6 +327,7 @@ p {
     margin-left: 20px;
 }
 
-.cards > div > img {
+.icons-card > img {
     width: 30px;
+    margin: 5px;
 }
