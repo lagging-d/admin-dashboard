@@ -43,6 +43,8 @@ body {
 .header {
     display: grid;
     grid-template-rows: 100px 100px;
+
+    box-shadow: ;
 }
 
 /* Upper Header */
@@ -171,12 +173,14 @@ button:hover {
     border-radius: 10px;
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 10px 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+
+    column-gap: 30px;
 }
 
 .icons-card {
-    grid-column: 2 / 3;
+    grid-column: 3 / 4;
     grid-row: 3 / 4;
 
     justify-self: end;
@@ -184,7 +188,7 @@ button:hover {
 }
 
 .cards > div > p {
-    grid-column: 1 / 3;
+    grid-column: 2 / 4;
     grid-row: 2 / 3;
 }
 
@@ -229,6 +233,7 @@ button:hover {
     background-color: white;
 
     padding: 10px;
+    padding-left: 0;
 }
 
 .logo-name {
@@ -337,9 +342,6 @@ p {
     margin-top: 0;
 }
 
-.cards > div > * { 
-    margin-left: 20px;
-}
 
 .icons-card > img {
     width: 30px;
@@ -385,3 +387,16 @@ h3 {
     color: grey;
 }
   
+.cards p { 
+    color: grey;
+}
+
+.card-line {
+    width: 10px;
+    background-color: #d418e1;
+    height: 100%;
+    margin: 0;
+
+    grid-column: 1;
+    grid-row: 1 / 4;
+}
