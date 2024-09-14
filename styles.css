@@ -331,3 +331,12 @@ p {
     width: 30px;
     margin: 5px;
 }
+
+h2 {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
